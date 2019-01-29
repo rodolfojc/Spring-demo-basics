@@ -5,7 +5,7 @@ public class MyApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//CREATE THE OBJECT
+		//CREATE THE OBJECT(S)
 		//BaseballCoach theCoach new BaseballCoach();
 		//Coach theCoach = new BaseballCoach();
 		//Coach theCoach = new TrackCoach();

@@ -15,8 +15,7 @@ public class SetterDemoApp {
 		//CALL METHOS ON BEANS
 		System.out.println(theCoach.getDailyWorkout());
 		System.out.println(theCoach.getDaylyFortune());
-		
-		
+				
 		//METHODS ADDED
 		System.out.println(theCoach.getEmailAddress());
 		System.out.println(theCoach.getTeam());
