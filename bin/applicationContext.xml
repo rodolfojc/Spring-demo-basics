@@ -12,7 +12,7 @@
     	<property name="printedLoggerLevel" value="FINE"/>
     </bean>
     
-    <!-- LOAD THE PROPERTIES FILE: SPORT.PROPERTIES bn-->
+    <!-- LOAD THE PROPERTIES FILE: SPORT.PROPERTIES -->
     <context:property-placeholder location="classpath:sport.properties"/>
     
     <!-- Define your beans here -->
@@ -32,8 +32,10 @@
 	
 		<!-- SET UP SETTER INJECTION -->
 		<property name="FortuneService" ref="myFortune"/>
-		<property name="emailAddress" value="thebestcoach@luv@.com"/>
-		<property name="team" value="Sunrisers Hyderabad"></property>
+		
+		<!-- INSERTING LITERAL VALUES -->
+		<property name="emailAddress" value="${foo.email}"/>
+		<property name="team" value="${foo.team}"/>
 	</bean>
 	
 	
