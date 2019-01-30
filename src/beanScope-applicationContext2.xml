@@ -12,9 +12,7 @@
     	<property name="printedLoggerLevel" value="FINE"/>
     </bean>
     
-    <!-- LOAD THE PROPERTIES FILE: SPORT.PROPERTIES -->
-    <context:property-placeholder location="classpath:sport.properties"/>
-    
+     
     <!-- DEFINE YOUR BEANS HERE -->
     
     <bean id="myFortune"
@@ -26,18 +24,7 @@
     	<!-- SET UP CONSTRUCTOR INJECTION -->
     		<constructor-arg ref="myFortune"/>
 	</bean>
-	
-	<bean id="myCricketCoach"
-		class="com.luv2code.springdemo.CricketCoach">
-	
-		<!-- SET UP SETTER INJECTION -->
-		<property name="FortuneService" ref="myFortune"/>
-		
-		<!-- INSERTING LITERAL VALUES -->
-		<property name="emailAddress" value="${foo.email}"/>
-		<property name="team" value="${foo.team}"/>
-	</bean>
-	   	
+			   	
 </beans>
 
 

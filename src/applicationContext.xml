@@ -37,14 +37,7 @@
 		<property name="emailAddress" value="${foo.email}"/>
 		<property name="team" value="${foo.team}"/>
 	</bean>
-	
-	
-    
-    
-    
-    	
-    	
-    	
+	   	
 </beans>
 
 
