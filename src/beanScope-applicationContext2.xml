@@ -20,7 +20,8 @@
     </bean>
     
     <bean id="myCoach"
-    	class="com.luv2code.springdemo.TrackCoach">
+    	class="com.luv2code.springdemo.TrackCoach"
+    	scope="prototype">
     	<!-- SET UP CONSTRUCTOR INJECTION -->
     		<constructor-arg ref="myFortune"/>
 	</bean>
