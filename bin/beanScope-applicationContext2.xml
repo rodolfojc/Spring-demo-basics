@@ -11,8 +11,7 @@
     	<property name="rootLoggerLevel" value="FINE" />
     	<property name="printedLoggerLevel" value="FINE"/>
     </bean>
-    
-     
+        
     <!-- DEFINE YOUR BEANS HERE -->
     
     <bean id="myFortune"
