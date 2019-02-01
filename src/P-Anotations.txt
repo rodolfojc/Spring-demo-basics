@@ -1,7 +1,9 @@
-Scope types: singleton and prototype.
+Scope types: singleton: Share the same reference of the bean, same menory location. and prototype.
 For prototype beans, the method destroy is never called. 
 
 Java Annotations: Special labels/markers added to Java classes, provide meta-data, processed at compilation. Example @Override
 Why: Annotations minimizes XML configurations. 
+Scanning Java classes for special annotations. Automatically register the bean.
+@Component
 
 
